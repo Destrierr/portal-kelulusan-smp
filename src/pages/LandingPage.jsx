@@ -105,19 +105,18 @@ useEffect(() => {
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-green-50 border border-green-100 rounded-full text-[11px] font-bold text-green-700 uppercase tracking-wider">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block animate-pulse" />
-            Selamat Datang di Portal Kelulusan Resmi
+            Selamat Datang di Portal Kelulusan SMP Muhammadiyah 08 Palembang
           </div>
 
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-950 leading-[1.15] tracking-tight">
-            Apresiasi Perjalanan Belajar <br />
+            Portal Pengumuman Resmi <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-500 font-normal">
               Siswa-Siswi Angkatan <span>{info.tahun}</span>
             </span>
           </h1>
 
           <p className="text-sm md:text-base text-gray-400 max-w-xl mx-auto leading-relaxed">
-            Komitmen kami dalam menghadirkan informasi yang transparan dan akurat.
-            Selamat kepada seluruh siswa yang telah menyelesaikan masa baktinya di {SCHOOL_NAME}.
+            Selamat atas dedikasi dan pencapaian seluruh siswa-siswi Angkatan {info.tahun}. Portal ini hadir untuk memberikan informasi kelulusan yang transparan, akurat, dan aman bagi seluruh keluarga besar SMP Muhammadiyah 08 Palembang.
           </p>
 
           <div className="pt-4">
