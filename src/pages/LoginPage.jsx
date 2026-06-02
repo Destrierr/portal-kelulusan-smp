@@ -101,7 +101,7 @@ export default function LoginPage() {
               disabled={loading}
               className="w-full py-3.5 mt-2 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all duration-300 hover:-translate-y-0.5 shadow-md shadow-green-600/10 cursor-pointer border-none"
             >
-              {loading ? 'Mengautentikasi Sesi...' : 'Masuk ke Dashboard'}
+              {loading ? 'Loading...' : 'Masuk'}
             </button>
           </form>
         </div>
