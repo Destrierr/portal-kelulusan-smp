@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;850&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+/* Terapkan Manrope ke seluruh elemen HTML */
+html, body, #root {
+  font-family: 'Manrope', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  html {
+  scroll-behavior: smooth;
+}
+
+/* Opsional: Berikan jarak offset agar pas di scroll, judul tidak tertutup navbar jika navbar kamu fixed/sticky */
+section {
+  scroll-margin-top: 4rem; /* Sesuaikan dengan tinggi navbar kamu */
+}
+}
